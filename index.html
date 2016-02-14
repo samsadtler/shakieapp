@@ -1,0 +1,260 @@
+<!-- 
+Sam Sadtler - 2016
+Source: https://github.com/samsadtler/boiler-plate-scroller
+Demo: http://samsadtler.github.io/boiler-plate-scroller/   
+
+sample images copyright Sam Sadtler 2016 
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- <link rel="stylesheet" type="text/css" href="css/vendor/jquery.fullPage.css" /> -->
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+        <link href="css/vendor/jquery.bxslider.css" rel="stylesheet" />
+       
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top">   
+        <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                   <!--  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> -->
+
+                    <!-- this changes the navbar text on the left -->
+                   <a class="navbar-brand" href="#">    Some Text Here </a>
+                </div>
+                
+                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                    <!-- this links to sections of scroller, Change section names here-->
+                    <ul class="nav navbar-nav navbar-right col-xs-*" id="top-nav">
+                   <!--      <li ><a href="#home">Home</a></li>
+                        <li><a href="#section-1">Section 1</a></li>
+                        <li><a href="#section-2">Section 2</a></li>
+                        <li><a href="#section-3">Section 3</a></li>
+                        <li><a href="#section-4">Section 4</a></li>
+                        <li><a href="#section-5">Section 5</a></li> -->
+                        <li class="col-xs-1"></li>
+                    </ul>
+                    <div class="col-xs-1"></div>
+                </div><!-- /.navbar-collapse -->
+          
+        </nav>
+    </div><!-- end container-fluid -->
+    <div class="container-fluid" id="fullpage">
+        <div class="parallax-window col section" data-parallax="scroll" data-image-src="img/IMG_6131.jpg" id="home"></div>
+            <div class="center-text" data-parallax="scroll">
+                <div>
+                    <div class="h1"> Welcome To The Project </div> 
+                    <div class="sm-spacer"></div>
+                    <div class="h4"> Some Kind of Tagline Goes Here </div>
+                </div>
+            </div>
+            <div class="row" id="section-1">
+                <div class="block col-xs-*"></div>
+            </div>
+            <div class="block row" >
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10">
+                    <div class="spacer"></div>
+                    <h2>Title for This Screen</h2> 
+                    <!-- <div class="spacer"></div> -->
+                </div>
+                <div class="col-xs-1"></div>   
+            </div>
+            <div class="block row" >
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10 split">
+                    <!-- two column  -->
+                    <p >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac neque vulputate justo blandit rhoncus. Integer nec neque eros. Donec ut magna dui, ac adipiscing felis. In odio massa, porta ornare pulvinar volutpat, ullamcorper et metus. Proin neque metus, tincidunt at adipiscing id, mattis ut justo. Mauris varius justo ac libero ultrices tincidunt. Sed rutrum ultrices elit, non rhoncus libero aliquam et. Sed sollicitudin, odio ut gravida. 
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus tellus, malesuada ut dapibus vitae, luctus vitae nibh. Donec ac quam sit amet lorem scelerisque adipiscing eu et neque. Nulla et ligula erat, ac molestie elit. Nullam vehicula tortor sed felis tempus condimentum. Fusce ante magna, lacinia id bibendum sit amet, sodales eu lorem. Duis accumsan, sem a commodo sagittis, turpis nisl scelerisque lectus, id tristique massa nibh quis magna.
+                    </p>
+                </div>
+                <div class="col-xs-1"></div>
+            </div> <!-- end block -->
+             <div class="spacer-div"></div>
+             <div class="row" id="section-2">
+                <div class="block col-xs-*"></div>
+            </div>
+             <div class="row section">
+
+                <div class="col-xs-1"></div>
+                <div class="col-xs-3">
+               
+                    <div class="h2-custom">
+                        Slides with Text
+                    </div>
+                    <div class="sm-spacer"></div>
+                    <div class="sm-spacer"></div>
+                    <!-- Paragraph to go with text slides, text is static -->
+
+                    <p class="s-w-t">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac neque vulputate justo blandit rhoncus. Integer nec neque eros. Donec ut magna dui, ac adipiscing felis. In odio massa, porta ornare pulvinar volutpat, ullamcorper et metus. Proin neque metus, tincidunt at adipiscing id, 
+
+                    </p>
+                    </div>
+                    
+                    <div class="col-xs-7">
+                        <!-- Second Set of slides goes here -->
+                        <!-- add or remove <li> elements from more or less images -->
+
+                        <ul class=" bxslider ">
+                          <li><img src="img/IMG_7783.jpg" /></li>
+                          <li><img src="img/IMG_6974.jpg" /></li>
+                          <li><img src="img/IMG_7317.jpg" /></li>
+                          <li><img src="img/IMG_6131.jpg" /></li>
+                        </ul>
+                    </div>
+                <div class="col-xs-1"></div>
+            </div>
+
+             <div class="row" id="section-3">
+                <div class="block col-xs-*"></div>
+            </div>
+            <div class="block row section">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10">
+                    <div class="spacer"></div>
+                    <h2> Title for this screen </h2>
+                    <div class="spacer"></div>
+                    <div class="sm-spacer"></div>
+                    <!-- first Set of slides goes here -->
+                    <!-- add or remove <li> elements from more or less images -->
+                    <ul class=" bxslider slides-only">                   
+                        <li><img src="img/IMG_6974.jpg" /></li>
+                        <li><img src="img/IMG_7317.jpg" /></li>
+                        <li><img src="img/IMG_7783.jpg" /></li>
+                        <li><img src="img/IMG_6131.jpg" /></li>
+                    </ul>
+                </div>
+                <div class="col-xs-1"></div>
+ 
+            </div> <!-- end block -->
+
+            <!-- Full image -->
+            <div class="row" id="section-4">
+                <div class="block col-xs-*"></div>
+            </div>
+            <div class="row section">
+
+                <div class="col-xs-12">
+                    <img class="img-responsive" src="img/IMG_6131.jpg" alt="Responsive image"/>
+                </div>     
+            </div>
+            <!-- Add Slides with Text here -->
+             <div class="row" id="section-5">
+                <div class="block col-xs-*"></div>
+            </div>
+             <div class="row section">
+
+                <div class="col-xs-1"></div>
+                <div class="col-xs-3">
+               
+                    <div class="h2-custom">
+                        Slides with Text
+                    </div>
+                    <div class="sm-spacer"></div>
+                    <div class="sm-spacer"></div>
+                    <!-- Paragraph to go with text slides, text is static -->
+
+                    <p class="s-w-t">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac neque vulputate justo blandit rhoncus. Integer nec neque eros. Donec ut magna dui, ac adipiscing felis. In odio massa, porta ornare pulvinar volutpat, ullamcorper et metus. Proin neque metus, tincidunt at adipiscing id, 
+
+                    </p>
+                    </div>
+                    
+                    <div class="col-xs-7">
+                        <!-- Second Set of slides goes here -->
+                        <!-- add or remove <li> elements from more or less images -->
+
+                        <ul class=" bxslider ">
+                          <li><img src="img/IMG_7783.jpg" /></li>
+                          <li><img src="img/IMG_6974.jpg" /></li>
+                          <li><img src="img/IMG_7317.jpg" /></li>
+                          <li><img src="img/IMG_6131.jpg" /></li>
+                        </ul>
+                    </div>
+                <div class="col-xs-1"></div>
+            </div>
+
+            <div class="spacer-div"></div>
+             <div class="row" id="section-6">
+                <div class="block col-xs-*"></div>
+            </div>
+                <div class="row row-height section end">
+                    <div class="pos col-xs-3 col-xs-offset-5">
+                        <!-- final page -->
+                        <h2 class="h2">
+                            Thanks!
+                        </h2>
+                            
+                    </div>
+                </div>
+            </div>
+
+    </div> <!-- /container -->
+    <footer>
+
+    <!-- BACK TO TOP SECTION IS RIGHT HERE -->
+    <div class="container-fluid footer">
+            <div class="col-xs-9"></div>
+            <div class="col-xs-3">
+                <p> <a class="footer-bar" href="#"> Back To The Top </a></p>
+            </div>
+        </div>
+    </footer>
+
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-2.2.0.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery.bxslider.min.js"></script>
+        <script src="js/vendor/parallax.min.js"></script>
+
+        <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+        <!-- // <script src="js/vendor/jquery.easings.min.js"></script> -->
+
+
+        <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+        <!-- // <script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script> -->
+
+        <!-- // <script type="text/javascript" src="js/vendor/jquery.fullPage.min.js"></script> -->
+        <!-- // <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Enables the smooth scrolling when a page is selected -->
+        
+    </body>
+</html>

@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile samson.github.io/.htpasswd  
+require valid-user
