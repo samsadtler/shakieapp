@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a boilerplate of a single one page scroller site with carousels made for Dalit Shalom 1/13/16
 
 
@@ -30,3 +31,7 @@ Sources:
 </ul>
 
 sample images copyright Sam Sadtler 2016 
+=======
+# shakieapp
+The Shakie Selfie Home Page
+>>>>>>> e5e57a5df05f6c0ca7c7f5bb07f32d6f7e1f7cb2
